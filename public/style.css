@@ -1,0 +1,51 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+html {
+  background-color: #303030;
+  color: #CCC;
+  height: 100%;
+  font-family: 'Verdana';
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+div.header {
+  background-color: #222;
+  margin: 0;
+  border-top: 2px solid #EED369;
+}
+
+div.header > h1 {
+  margin: 0;
+  color: #EED369;
+  padding: 10px 0px 10px 20px;
+}
+
+section {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+code {
+  background-color: #083045;
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px dashed #CCC;
+  padding-top: 10px;
+  padding-left: 20px;
+  
+}
+footer > a {
+  text-decoration: none;
+  color: #EED369;
+}
